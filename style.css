@@ -1389,3 +1389,34 @@ button:focus-visible {
   #parceiro-medsaude .medsaude-foto-moldura { aspect-ratio:1 / .86; }
   #parceiro-medsaude .medsaude-foto-moldura > img { aspect-ratio:1 / .86; }
 }
+
+/* Ajuste de hierarquia e ritmo do texto da seção MedSaúde */
+#parceiro-medsaude .medsaude-conteudo { max-width: 680px; }
+#parceiro-medsaude .medsaude-parceira-tag { margin-bottom: 18px; }
+#parceiro-medsaude h2 {
+  max-width: 650px;
+  font-size: clamp(1.7rem, 2.65vw, 2.55rem);
+  line-height: 1.13;
+  letter-spacing: -.018em;
+  text-wrap: balance;
+}
+#parceiro-medsaude h2 span,
+#parceiro-medsaude h2 em { display: inline; }
+#parceiro-medsaude h2 em { white-space: nowrap; }
+#parceiro-medsaude .medsaude-lead {
+  max-width: 600px;
+  margin-top: 16px;
+  margin-bottom: 22px;
+  font-size: clamp(.98rem, 1.13vw, 1.1rem);
+  line-height: 1.55;
+  text-wrap: pretty;
+}
+#parceiro-medsaude .medsaude-diferenciais { gap: 9px; margin-bottom: 24px; }
+#parceiro-medsaude .medsaude-diferenciais li { line-height: 1.45; }
+@media (min-width: 901px) {
+  #parceiro-medsaude .medsaude-layout { grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr); gap: clamp(30px, 3.5vw, 58px); }
+}
+@media (max-width: 520px) {
+  #parceiro-medsaude h2 { font-size: clamp(1.65rem, 7vw, 2.15rem); }
+  #parceiro-medsaude h2 em { white-space: normal; }
+}
