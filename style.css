@@ -1137,20 +1137,22 @@ button:focus-visible {
 
 
 /* =======================================================
-   PARCEIRO MEDSAÚDE ADAMANTINA
+   PARCEIRO MEDSAÚDE ADAMANTINA — PALETA DA MARCA
 ======================================================= */
 .parceiro-medsaude {
     overflow: hidden;
+    color: #f7fffc;
     background:
-        radial-gradient(ellipse at 5% 48%, rgba(0, 157, 121, 0.19), transparent 46%),
-        linear-gradient(125deg, #071b12 0%, #0b2d20 55%, #073e32 100%);
-    border-top: 1px solid rgba(212,175,55,0.13);
-    border-bottom: 1px solid rgba(212,175,55,0.13);
+        radial-gradient(ellipse at 78% 46%, rgba(37, 220, 184, .32), transparent 44%),
+        radial-gradient(ellipse at 10% 15%, rgba(0, 119, 88, .72), transparent 48%),
+        linear-gradient(120deg, #079d79 0%, #08a88b 48%, #16b7a8 100%);
+    border-top: 1px solid rgba(255,255,255,.15);
+    border-bottom: 1px solid rgba(0,77,65,.25);
 }
 .medsaude-layout {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.03fr);
-    gap: clamp(42px, 6vw, 82px);
+    grid-template-columns: minmax(0, .98fr) minmax(0, 1.02fr);
+    gap: clamp(42px, 5vw, 76px);
     align-items: center;
 }
 .medsaude-conteudo { min-width: 0; }
@@ -1160,10 +1162,10 @@ button:focus-visible {
     gap: 10px;
     margin-bottom: 25px;
     padding: 9px 15px;
-    border: 1px solid rgba(9, 191, 151, 0.4);
+    border: 1px solid rgba(255,255,255,.35);
     border-radius: 999px;
-    color: #8be8cf;
-    background: rgba(0, 157, 121, 0.1);
+    color: #fff;
+    background: rgba(0,77,65,.24);
     font-size: .73rem;
     font-weight: 800;
     letter-spacing: .1em;
@@ -1175,72 +1177,47 @@ button:focus-visible {
     height: 8px;
     flex: 0 0 8px;
     border-radius: 50%;
-    background: #20d6aa;
-    box-shadow: 0 0 16px rgba(32,214,170,.65);
+    background: #fff;
+    box-shadow: 0 0 16px rgba(255,255,255,.65);
 }
 .medsaude-logo {
     display: block;
-    width: min(255px, 75%);
+    width: min(270px, 78%);
     height: auto;
     margin-bottom: 28px;
-    border-radius: 7px;
-    box-shadow: 0 12px 35px rgba(0,0,0,.22);
-}
-.parceiro-medsaude h2 { margin-bottom: 22px; }
-.parceiro-medsaude h2 span {
-    color: #4bd9b5;
-    text-shadow: 0 0 24px rgba(32,214,170,.12);
-}
-.medsaude-lead { max-width: 570px; margin-bottom: 25px; font-size: 1.04rem; line-height: 1.8; color: #d2e3dc !important; }
-.medsaude-diferenciais { display: grid; gap: 14px; margin: 0 0 24px; list-style: none; }
-.medsaude-diferenciais li { display: flex; align-items: flex-start; gap: 12px; color: #f0f6f3; font-size: .94rem; font-weight: 600; }
-.medsaude-diferenciais li span { display: grid; place-items: center; width: 23px; height: 23px; flex: 0 0 23px; border-radius: 50%; color: #06271c; background: #50d9b6; font-size: .85rem; font-weight: 900; line-height: 1; }
-.medsaude-observacao { max-width: 560px; margin-bottom: 27px; font-size: .78rem; line-height: 1.7; color: #9fb8ad !important; }
-.btn-medsaude {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 22px;
-    padding: 15px 21px;
-    border: 1px solid #51d9b5;
     border-radius: 5px;
-    color: #06271c;
-    background: linear-gradient(110deg, #63e4c2, #2fc5a0);
-    text-decoration: none;
-    font-size: .82rem;
-    font-weight: 800;
-    letter-spacing: .04em;
-    text-transform: uppercase;
+    box-shadow: 0 10px 25px rgba(0,65,52,.15);
+}
+.parceiro-medsaude h2 { margin-bottom: 22px; color: #fff; }
+.parceiro-medsaude h2 span { color: #e1fff5; text-shadow: 0 0 24px rgba(255,255,255,.12); }
+.medsaude-lead { max-width: 570px; margin-bottom: 25px; font-size: 1.04rem; line-height: 1.8; color: rgba(255,255,255,.95) !important; }
+.medsaude-diferenciais { display: grid; gap: 14px; margin: 0 0 24px; list-style: none; }
+.medsaude-diferenciais li { display: flex; align-items: flex-start; gap: 12px; color: #fff; font-size: .94rem; font-weight: 600; }
+.medsaude-diferenciais li span { display: grid; place-items: center; width: 23px; height: 23px; flex: 0 0 23px; border-radius: 50%; color: #fff; background: #006a56; font-size: .85rem; font-weight: 900; line-height: 1; }
+.medsaude-observacao { max-width: 560px; margin-bottom: 27px; font-size: .78rem; line-height: 1.7; color: rgba(255,255,255,.82) !important; }
+.btn-medsaude {
+    display: inline-flex; align-items: center; justify-content: center; gap: 22px;
+    padding: 15px 21px; border: 1px solid rgba(255,255,255,.4); border-radius: 999px;
+    color: #fff; background: #006b56; text-decoration: none; font-size: .82rem;
+    font-weight: 800; letter-spacing: .04em; text-transform: uppercase;
     transition: transform .25s ease, box-shadow .25s ease;
 }
-.btn-medsaude:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(32,214,170,.2); }
+.btn-medsaude:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(0,77,65,.25); }
 .btn-medsaude span { font-size: 1.1rem; }
 .medsaude-visual { position: relative; min-width: 0; }
 .medsaude-foto-moldura {
-    position: relative;
-    min-height: 420px;
-    overflow: hidden;
-    border: 1px solid rgba(111,229,197,.28);
-    border-radius: 18px;
-    background: #0b3528;
-    box-shadow: 0 30px 70px rgba(0,0,0,.34);
+    position: relative; min-height: 420px; overflow: hidden;
+    border: 1px solid rgba(255,255,255,.42); border-radius: 18px;
+    background: #087b6b; box-shadow: 0 24px 60px rgba(0,77,65,.2);
 }
-.medsaude-foto-moldura::before {
-    content: '';
-    position: absolute;
-    z-index: 2;
-    inset: 0;
-    border: 1px solid rgba(255,255,255,.08);
-    border-radius: inherit;
-    pointer-events: none;
-}
+.medsaude-foto-moldura::before { content: ''; position: absolute; z-index: 2; inset: 0; border: 1px solid rgba(255,255,255,.16); border-radius: inherit; pointer-events: none; }
 .medsaude-foto-moldura > img { display: block; width: 100%; height: 470px; object-fit: cover; object-position: center; filter: saturate(.82) contrast(1.03); }
-.medsaude-foto-sombra { position: absolute; inset: 30% 0 0; background: linear-gradient(transparent, rgba(3,22,15,.9)); }
-.medsaude-legenda { position: absolute; right: 22px; bottom: 22px; left: 22px; display: flex; align-items: center; gap: 13px; padding: 17px 18px; border: 1px solid rgba(255,255,255,.14); border-radius: 12px; background: rgba(5,31,21,.76); backdrop-filter: blur(12px); }
+.medsaude-foto-sombra { position: absolute; inset: 30% 0 0; background: linear-gradient(transparent, rgba(0,60,50,.82)); }
+.medsaude-legenda { position: absolute; right: 22px; bottom: 22px; left: 22px; display: flex; align-items: center; gap: 13px; padding: 17px 18px; border: 1px solid rgba(255,255,255,.28); border-radius: 12px; background: rgba(0,85,69,.78); backdrop-filter: blur(12px); }
 .medsaude-legenda strong, .medsaude-destaque strong { display: block; color: #fff; font-size: .94rem; }
-.medsaude-legenda small, .medsaude-destaque small { display: block; margin-top: 3px; color: #b9cec5; font-size: .73rem; line-height: 1.5; }
-.medsaude-destaque { position: relative; display: flex; align-items: center; gap: 14px; width: fit-content; max-width: calc(100% - 30px); margin: -28px 0 0 -25px; padding: 17px 22px; border: 1px solid rgba(212,175,55,.32); border-radius: 12px; background: linear-gradient(135deg, #0c3b29, #09251a); box-shadow: 0 15px 35px rgba(0,0,0,.25); }
-.medsaude-destaque > span { display: grid; place-items: center; width: 43px; height: 43px; flex: 0 0 43px; border-radius: 12px; color: #08271b; background: var(--cor-dourado); font-size: 1.8rem; font-weight: 500; }
+.medsaude-legenda small, .medsaude-destaque small { display: block; margin-top: 3px; color: rgba(255,255,255,.82); font-size: .73rem; line-height: 1.5; }
+.medsaude-destaque { position: relative; display: flex; align-items: center; gap: 14px; width: fit-content; max-width: calc(100% - 30px); margin: -28px 0 0 -25px; padding: 17px 22px; border: 1px solid rgba(255,255,255,.4); border-radius: 12px; background: #006b56; box-shadow: 0 15px 35px rgba(0,77,65,.2); }
+.medsaude-destaque > span { display: grid; place-items: center; width: 43px; height: 43px; flex: 0 0 43px; border-radius: 12px; color: #006b56; background: #fff; font-size: 1.8rem; font-weight: 500; }
 @media (max-width: 900px) {
     .medsaude-layout { grid-template-columns: 1fr; gap: 45px; }
     .medsaude-conteudo { max-width: 720px; }
