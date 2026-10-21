@@ -1621,3 +1621,43 @@ button:focus-visible {
         flex-basis: 27px;
     }
 }
+
+
+/* PNGs originais enviados para os ícones da clínica parceira. */
+#parceiro-medsaude .medsaude-icone-parceria .medsaude-handshake-img {
+    display: block;
+    width: 43px;
+    height: 43px;
+    max-width: 100%;
+    flex: 0 0 auto;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    object-position: center;
+    filter: brightness(0) invert(1);
+    transform: none;
+}
+#parceiro-medsaude .btn-medsaude .medsaude-whatsapp-img {
+    display: block;
+    width: 43px;
+    height: 43px;
+    max-width: 100%;
+    min-width: 0;
+    min-height: 0;
+    justify-self: center;
+    align-self: center;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    object-position: center;
+    filter: brightness(0) invert(1);
+    transform: none;
+}
+@media (max-width: 600px) {
+    #parceiro-medsaude .medsaude-icone-parceria .medsaude-handshake-img {
+        width: 35px;
+        height: 35px;
+    }
+    #parceiro-medsaude .btn-medsaude .medsaude-whatsapp-img {
+        width: 37px;
+        height: 37px;
+    }
+}
