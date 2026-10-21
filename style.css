@@ -1420,3 +1420,32 @@ button:focus-visible {
   #parceiro-medsaude h2 { font-size: clamp(1.65rem, 7vw, 2.15rem); }
   #parceiro-medsaude h2 em { white-space: normal; }
 }
+
+
+/* Foto original da recepção MedSaúde: imagem integral, sem cortes ou alterações */
+#parceiro-medsaude .medsaude-foto-moldura {
+  min-height: 0;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+}
+#parceiro-medsaude .medsaude-foto-moldura::before {
+  display: none;
+}
+#parceiro-medsaude .medsaude-foto-moldura > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  object-position: center;
+  filter: none;
+  border: 0;
+  border-radius: 0;
+}
