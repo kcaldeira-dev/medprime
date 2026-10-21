@@ -1518,3 +1518,106 @@ button:focus-visible {
         transition: none;
     }
 }
+
+/* CORREÇÃO DOS ÍCONES DA MEDSAÚDE — SVG PADRONIZADO, SEM DEFORMAÇÃO */
+#parceiro-medsaude .medsaude-parceira-tag .medsaude-icone-parceria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 82px;
+    width: 82px;
+    min-width: 82px;
+    height: 62px;
+    min-height: 62px;
+    padding: 0;
+    line-height: 0;
+}
+#parceiro-medsaude .medsaude-parceira-tag .medsaude-handshake-svg {
+    display: block;
+    flex: 0 0 34px;
+    width: 34px;
+    height: 34px;
+    aspect-ratio: 1 / 1;
+    overflow: visible;
+    transform: none;
+}
+#parceiro-medsaude .medsaude-diferenciais li .medsaude-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29px;
+    height: 29px;
+    min-width: 29px;
+    min-height: 29px;
+    flex: 0 0 29px;
+    padding: 0;
+    line-height: 0;
+}
+#parceiro-medsaude .medsaude-diferenciais li .medsaude-check-svg {
+    display: block;
+    flex: 0 0 18px;
+    width: 18px;
+    height: 18px;
+    aspect-ratio: 1 / 1;
+    transform: none;
+}
+#parceiro-medsaude .btn-medsaude {
+    grid-template-columns: 48px minmax(0, 1fr) 24px;
+}
+#parceiro-medsaude .btn-medsaude .medsaude-whatsapp {
+    display: block;
+    justify-self: center;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    aspect-ratio: 1 / 1;
+    flex-shrink: 0;
+    transform: none;
+}
+#parceiro-medsaude .btn-medsaude .medsaude-seta {
+    display: block;
+    width: 23px;
+    height: 23px;
+    min-width: 23px;
+    min-height: 23px;
+    aspect-ratio: 1 / 1;
+    justify-self: end;
+    transform: none;
+}
+@media (max-width: 600px) {
+    #parceiro-medsaude .medsaude-parceira-tag .medsaude-icone-parceria {
+        flex-basis: 55px;
+        width: 55px;
+        min-width: 55px;
+        height: 48px;
+        min-height: 48px;
+    }
+    #parceiro-medsaude .medsaude-parceira-tag .medsaude-handshake-svg {
+        flex-basis: 28px;
+        width: 28px;
+        height: 28px;
+    }
+    #parceiro-medsaude .btn-medsaude {
+        grid-template-columns: 42px minmax(0, 1fr) 22px;
+    }
+    #parceiro-medsaude .btn-medsaude .medsaude-whatsapp {
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+        min-height: 36px;
+    }
+    #parceiro-medsaude .btn-medsaude .medsaude-seta {
+        width: 21px;
+        height: 21px;
+        min-width: 21px;
+        min-height: 21px;
+    }
+    #parceiro-medsaude .medsaude-diferenciais li .medsaude-check {
+        width: 27px;
+        height: 27px;
+        min-width: 27px;
+        min-height: 27px;
+        flex-basis: 27px;
+    }
+}
