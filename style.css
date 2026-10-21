@@ -1198,7 +1198,7 @@ button:focus-visible {
     width: min(364px, 75%);
     max-width: 100%;
     height: auto;
-    margin: 0 0 20px;
+    margin: 0 0 25px;
     border: 0;
     border-radius: 0;
     background: transparent;
@@ -1211,7 +1211,7 @@ button:focus-visible {
     width: max-content;
     max-width: calc(100% + 10px);
     min-height: 62px;
-    margin: 0 0 2px -10px;
+    margin: 0 0 18px -10px;
     padding: 0 32px 0 0;
     gap: 24px;
     border-radius: 999px;
@@ -1241,12 +1241,12 @@ button:focus-visible {
     height: 45px;
 }
 #parceiro-medsaude h2 {
-    margin: 0 0 13px;
+    margin: 0 0 21px;
     max-width: none;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: clamp(26px, 2.47vw, 41px);
-    line-height: 1.105;
+    line-height: 1.16;
     font-weight: 400;
     letter-spacing: -.031em;
     text-transform: uppercase;
@@ -1274,10 +1274,10 @@ button:focus-visible {
 }
 #parceiro-medsaude .medsaude-lead {
     max-width: 650px;
-    margin: 0 0 16px;
+    margin: 0 0 24px;
     color: #fff !important;
     font-size: clamp(15px, 1.035vw, 18px);
-    line-height: 1.46;
+    line-height: 1.57;
     font-weight: 500;
     letter-spacing: -.018em;
 }
@@ -1287,8 +1287,8 @@ button:focus-visible {
 }
 #parceiro-medsaude .medsaude-diferenciais {
     display: grid;
-    gap: 7px;
-    margin: 0 0 17px;
+    gap: 10px;
+    margin: 0 0 27px;
     padding: 0;
     list-style: none;
 }
@@ -1296,12 +1296,12 @@ button:focus-visible {
     display: flex;
     align-items: center;
     gap: 16px;
-    min-height: 29px;
+    min-height: 31px;
     color: #fff;
     font-size: clamp(14px, 1.0vw, 17px);
     font-weight: 500;
     letter-spacing: -.022em;
-    line-height: 1.35;
+    line-height: 1.45;
 }
 #parceiro-medsaude .medsaude-diferenciais li .medsaude-check {
     display: grid;
@@ -1343,8 +1343,8 @@ button:focus-visible {
     color: #fff;
 }
 #parceiro-medsaude .btn-medsaude .medsaude-whatsapp {
-    width: 52px;
-    height: 52px;
+    width: 49px;
+    height: 49px;
 }
 #parceiro-medsaude .btn-medsaude .medsaude-seta {
     width: 25px;
@@ -1455,7 +1455,7 @@ button:focus-visible {
         gap: 10px;
         padding-right: 18px;
         margin-left: 0;
-        margin-bottom: 14px;
+        margin-bottom: 19px;
         font-size: clamp(15px, 4.2vw, 22px);
     }
     #parceiro-medsaude .medsaude-icone-parceria {
@@ -1471,19 +1471,19 @@ button:focus-visible {
     #parceiro-medsaude h2 {
         font-size: clamp(22px, 5.7vw, 32px);
         letter-spacing: -.035em;
-        margin-bottom: 17px;
+        margin-bottom: 22px;
     }
     #parceiro-medsaude h2 strong {
         white-space: normal;
     }
     #parceiro-medsaude .medsaude-lead {
-        margin-bottom: 21px;
+        margin-bottom: 25px;
         font-size: 14.5px;
         line-height: 1.58;
     }
     #parceiro-medsaude .medsaude-diferenciais {
-        gap: 10px;
-        margin-bottom: 25px;
+        gap: 12px;
+        margin-bottom: 29px;
     }
     #parceiro-medsaude .medsaude-diferenciais li {
         font-size: 14px;
@@ -1505,8 +1505,8 @@ button:focus-visible {
         font-size: clamp(14px, 4.2vw, 17px);
     }
     #parceiro-medsaude .btn-medsaude .medsaude-whatsapp {
-        width: 46px;
-        height: 46px;
+        width: 44px;
+        height: 44px;
     }
     #parceiro-medsaude .medsaude-foto-moldura {
         aspect-ratio: 820 / 601;
